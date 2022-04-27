@@ -1,0 +1,11 @@
+.sp-text{
+    font-size: 2rem;
+    line-height: 120% !important;
+    font-weight: 600;
+}
+
+.about-heading{
+    font-size: 2.5rem;
+    border-bottom: 0.25rem solid #e60965;
+    display: inline;
+}

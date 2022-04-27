@@ -1,0 +1,11 @@
+.sub-footer-section{
+    height: 20vh;
+    width: 99vw;
+    overflow-x: scroll;
+}
+
+.footer-section{
+    width: 95%;
+    max-width: 25rem;
+    line-height: 120% !important;
+}

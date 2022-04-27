@@ -1,0 +1,28 @@
+.skills-card{
+    background-color: transparent !important;
+    height: 19rem !important;
+    width: 16rem !important;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5) !important;
+    border-radius: 1rem !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+img{
+    width: 12rem;
+}
+
+.skill-section{
+    width: 95%;
+    max-width: 70rem;
+    line-height: 120% !important;
+}
+
+.skills-header{
+    /* font-size: 2rem; */
+    line-height: 120% !important;
+    font-weight: 600;
+    font-size: 2.5rem;
+    border-bottom: 0.25rem solid #e60965;
+    display: inline;
+}
