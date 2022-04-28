@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/hero.css'
+import { Link } from 'react-scroll'
 
 const Hero = () => {
     return (
@@ -21,7 +22,7 @@ const Hero = () => {
                         building responsive full-stack web applications.
                     </div>
                     <div className="col col-12 hero-desc">
-                        <button className='ui inverted grey button mouserat'>View Work<i class="arrow right icon"></i></button>
+                    <Link to='work' smooth={true} duration={500} className='ui inverted grey button mouserat'>View Work<i class="arrow right icon"></i></Link>
                     </div>
                 </div>
             </div>
